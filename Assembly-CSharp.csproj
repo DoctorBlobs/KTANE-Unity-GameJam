@@ -41,21 +41,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GameController.cs" />
-     <Compile Include="Assets\Scripts\TimerController.cs" />
      <Compile Include="Assets\Scripts\ButtonController.cs" />
-     <Compile Include="Assets\Scripts\DefaultSlider.cs" />
-     <Compile Include="Assets\Scripts\toggleButton.cs" />
-     <Compile Include="Assets\Scripts\Inputfield.cs" />
-     <Compile Include="Assets\Scripts\toggles.cs" />
-     <Compile Include="Assets\Scripts\ShowLetter.cs" />
-     <Compile Include="Assets\Scripts\Sudoku.cs" />
      <Compile Include="Assets\Scripts\DefaultButton.cs" />
-     <Compile Include="Assets\Scripts\SudokuInputfield.cs" />
-     <Compile Include="Assets\Scripts\LightArray.cs" />
-     <Compile Include="Assets\Scripts\MorseLight.cs" />
-     <Compile Include="Assets\Scripts\SimonSays.cs" />
+     <Compile Include="Assets\Scripts\TimerController.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\ShowLetter.cs" />
+     <Compile Include="Assets\Scripts\Inputfield.cs" />
      <Compile Include="Assets\Scripts\STOP.cs" />
+     <Compile Include="Assets\Scripts\SudokuInputfield.cs" />
+     <Compile Include="Assets\Scripts\DefaultSlider.cs" />
+     <Compile Include="Assets\Scripts\MorseLight.cs" />
+     <Compile Include="Assets\Scripts\Sudoku.cs" />
+     <Compile Include="Assets\Scripts\LightArray.cs" />
+     <Compile Include="Assets\Scripts\toggleButton.cs" />
+     <Compile Include="Assets\Scripts\toggles.cs" />
+     <Compile Include="Assets\Scripts\SimonSays.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

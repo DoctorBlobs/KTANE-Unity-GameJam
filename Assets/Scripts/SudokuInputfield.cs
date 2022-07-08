@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Inputfield : MonoBehaviour
+public class SudokuInputfield : MonoBehaviour
 {
     public string RequiredInput;
     public GameObject input;
     public bool isDone = false;
-    public string replace;
+    public Sudoku Sudoku;
 
     public void checkInput(){
-        if (RequiredInput.ToLower() == input.GetComponent<TMP_InputField>().text.ToLower()){
+        if (RequiredInput == input.GetComponent<TMP_InputField>().text){
             print("win!!!");
             isDone = true;
             Win();
@@ -19,7 +19,6 @@ public class Inputfield : MonoBehaviour
     }
 
     void Win(){
-        input.GetComponent<TMP_InputField>().text = replace;
-        input.GetComponent<TMP_InputField>().readOnly = true;
+        Sudoku.Check();
     }
 }

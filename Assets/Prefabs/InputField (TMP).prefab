@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9077988210321426402}
   - component: {fileID: 9077988210321426403}
   - component: {fileID: 9077988210321426400}
+  - component: {fileID: 7246232268595667809}
   m_Layer: 5
   m_Name: InputField (TMP)
   m_TagString: Untagged
@@ -92,7 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -203,6 +204,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RequiredInput: TIM
   input: {fileID: 9077988210321426430}
+  isDone: 0
+  Sudoku: {fileID: 0}
+--- !u!114 &7246232268595667809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9077988210321426430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce6b5a8924b93449b3bf78fabd41f5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RequiredInput: 
+  input: {fileID: 0}
+  isDone: 0
+  replace: 
 --- !u!1 &9077988210985250567
 GameObject:
   m_ObjectHideFlags: 0

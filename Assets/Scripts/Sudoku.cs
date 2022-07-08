@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Sudoku : MonoBehaviour
 {
-    public Inputfield[] sudoku = new Inputfield[6];
+    public SudokuInputfield[] sudoku = new SudokuInputfield[15];
+    public GameObject Answer;
+    public bool isDone;
 
     public void Check() {
         bool done = true;
-        foreach (Inputfield input in sudoku){
+        foreach (SudokuInputfield input in sudoku){
             if (!input.isDone){
                 done = false;
             }
         }
         if (done){
             print("sudoku done!!");
+            Answer.SetActive(true);
+            isDone = true;
         }
     }
 }
